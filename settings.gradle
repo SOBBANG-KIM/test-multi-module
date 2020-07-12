@@ -1,1 +1,7 @@
+//pluginManagement {
+//    repositories {
+//        gradlePluginPortal()
+//    }
+//}
 rootProject.name = 'test-web-multi-module'
+include 'test-web-common', 'test-web-admin'
